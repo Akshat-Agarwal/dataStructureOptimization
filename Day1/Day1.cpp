@@ -10,6 +10,7 @@
 #include <vector>
 #include <list>
 #include <map>
+#include "Permutations.cpp"
 
 void duplicateCharacters();
 void anagrams();
@@ -21,7 +22,6 @@ void containsOnlyNumericalValues();
 void findLCM();
 void findGCD();
 int calculateGCD(int num1, int num2);
-
 void levenshtein();
 
 void _tmain()
@@ -34,7 +34,8 @@ void _tmain()
 //	levenshtein();
 //	containsOnlyNumericalValues();
 //	findGCD();
-	findLCM();
+//	findLCM();
+	stringPermutations();
 	return;
 }
 

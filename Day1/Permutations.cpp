@@ -18,7 +18,7 @@ static void stringPermutations()
 	// Get the string to permute
 	std::string string;
 
-	std::cout<< "Enter first string: ";
+	std::cout<< "Enter string to permute: ";
 	std::getline(std::cin, string);
 
 	permute(string, 0);

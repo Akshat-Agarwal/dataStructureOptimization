@@ -1,11 +1,6 @@
 #include "stdafx.h"
 #include <iostream>
-#include <algorithm>
 #include <string>
-#include <locale>
-#include <vector>
-#include <list>
-#include <map>
 
 static void stringPermutations();
 static void permute(std::string& string, int startPosition);

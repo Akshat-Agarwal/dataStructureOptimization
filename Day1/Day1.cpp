@@ -11,6 +11,7 @@
 #include <list>
 #include <map>
 #include "Permutations.cpp"
+#include "Matrices.cpp";
 
 void duplicateCharacters();
 void anagrams();
@@ -35,7 +36,50 @@ void _tmain()
 //	containsOnlyNumericalValues();
 //	findGCD();
 //	findLCM();
-	stringPermutations();
+//	stringPermutations();
+	int length, height = 0;
+	int** matrix = createMatrix(length, height);
+	std::cout << "\nlength: " << length << " height: " << height << "\n";
+
+	int startRow = 0;
+	int endRow = height;
+	int startColumn = 0;
+	int endColumn = length;
+
+	std::pair<int, int> currentPosition;
+	currentPosition.first = 0;
+	currentPosition.second = 0;
+	int value = 0;
+	int heightThickness = 0;	// The 
+	int lengthThickness = 0;
+
+	std::cout << matrix[0][0];
+
+	while(matrixRight(matrix, length, height, currentPosition, value, endColumn))
+	{
+		std::cout << value;
+	}
+	// Current right most column is now out of bounds
+	endColumn++;
+
+	while(matrixDown(matrix, length, height, currentPosition, value, endRow))
+	{
+		std::cout << value;
+	}
+	endRow--;
+	
+	while(matrixLeft(matrix, length, height, currentPosition, value, startColumn))
+	{
+		std::cout << value;
+	}
+	startColumn--;
+
+	while(matrixUp(matrix, length, height, currentPosition, value, startColumn))
+	{
+		std::cout << value;
+	}
+	startColumn++;
+
 	return;
 }
 

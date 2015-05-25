@@ -11,8 +11,9 @@
 #include <list>
 #include <map>
 #include "Permutations.cpp"
-#include "Matrices.cpp";
+#include "Matrices.cpp"
 #include "SumOfList.cpp"
+#include "MaxSumSubArrays.cpp"
 
 void duplicateCharacters();
 void anagrams();
@@ -38,7 +39,8 @@ void _tmain()
 //	findGCD();
 //	findLCM();
 //	stringPermutations();
-	makeList();
+//	makeList();
+	maxSum();
 
 
 	//int length, height = 0;

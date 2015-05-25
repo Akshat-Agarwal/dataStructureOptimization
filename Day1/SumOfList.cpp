@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include <iostream>
-#include <string>
 #include <vector>
 
 static void makeList();

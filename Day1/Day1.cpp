@@ -14,6 +14,7 @@
 #include "Matrices.cpp"
 #include "SumOfList.cpp"
 #include "MaxSumSubArrays.cpp"
+#include "IntToString.cpp"
 
 void duplicateCharacters();
 void anagrams();
@@ -26,6 +27,7 @@ void findLCM();
 void findGCD();
 int calculateGCD(int num1, int num2);
 void levenshtein();
+
 
 void _tmain()
 {	
@@ -40,7 +42,8 @@ void _tmain()
 //	findLCM();
 //	stringPermutations();
 //	makeList();
-	maxSum();
+//	maxSum();
+	intToString();
 
 
 	//int length, height = 0;

@@ -16,6 +16,7 @@
 #include "MaxSumSubArrays.cpp"
 #include "IntToString.cpp"
 #include "Palindrome.cpp"
+#include "UnorderedSet.h"
 
 void duplicateCharacters();
 void anagrams();
@@ -40,7 +41,8 @@ void _tmain()
 //	makeList();
 //	maxSum();
 //	intToString();
-	palindrome();
+//	palindrome();
+	UnorderedSet::createUnorderedSet();
 
 
 	//int length, height = 0;

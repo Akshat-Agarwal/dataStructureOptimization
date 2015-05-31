@@ -35,9 +35,6 @@ void UnorderedSet::createUnorderedSet()
 			std::cout << "There are new items in the second string";
 			return;
 		}
-		else {
-			continue;
-		}
 	}
 	std::cout << "There are NO new items in the second string";
 }	

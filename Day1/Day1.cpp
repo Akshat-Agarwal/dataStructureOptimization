@@ -17,6 +17,7 @@
 #include "IntToString.cpp"
 #include "Palindrome.cpp"
 #include "UnorderedSet.h"
+#include "InterviewPrep.cpp"
 
 void duplicateCharacters();
 void anagrams();
